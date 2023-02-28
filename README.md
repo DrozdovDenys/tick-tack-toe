@@ -6,7 +6,7 @@
  Implemented the game 'X or O'. Players are marking by turns the
  spaces in a 3x3 grid with X or O.
 
-1. *GAME FLOW:
+1. GAME FLOW*:
    - The game should randomly decide which player has the first turn at the beginning of the round and highlight his name. After every turn, the highlighted name should      change accordingly.
    - Player should be allowed to mark only an empty cell.
    - Once a player succeeded to mark the whole row, the game should display an appropriate message (e.g. ‘Player 1 won!’) and increment winner’s score. The winning row      should be highlighted or crossed out.
