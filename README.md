@@ -4,9 +4,7 @@
 
 <h2>Descripion</h2>
  Implemented the game 'X or O'. Players are marking by turns the
- spaces in a 3x3 grid with X or O.
- 
- 
+ spaces in a 3x3 grid with X or O.  
  
 **GAME FLOW**:
    - The game should randomly decide which player has the first turn at the beginning of the round and highlight his name. After every turn, the highlighted name should      change accordingly.
