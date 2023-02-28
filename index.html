@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JS Modules</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
+  </head>
+
+  <body>
+    <div class="content">
+      <h1 id="winner">The winner is...</h1>
+      <div class="currentPlayer">
+        <span>
+          Your move
+          <span id="curPlyr"></span>
+        </span>
+      </div>
+      <div class="stat">
+        <table>
+          <tr>
+            <th colspan="2">Statistic</th>
+          </tr>
+          <tr>
+            <td>X</td>
+            <td><span id="sX">0</span></td>
+          </tr>
+          <tr>
+            <td>O</td>
+            <td><span id="sO">0</span></td>
+          </tr>
+          <tr>
+            <td>Draw</td>
+            <td><span id="sD">0</span></td>
+          </tr>
+        </table>
+      </div>
+      <div id="area"></div>
+      <button id="btn-reset">New game</button>
+      <button id="btn-clear">Clear</button>
+    </div>
+  </body>
+</html>
